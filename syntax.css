@@ -1,0 +1,77 @@
+.html_tag{
+ color:#b32e1d;
+}
+.str,.str > .html_comm,.str > .key,.str *,.str > .eql{
+  color:#3387b8;
+}
+.html_atr{
+  color:#3c3c8f;
+}
+.eql{
+  color:#c71e37;
+}
+pre{
+  background-color:white 
+}
+.key{
+    color:red;
+}
+.html_comm > *,.html_comm *,.html_comm{
+  color:#919294;
+}
+.html_comm > line:before,.str > line:before{
+    color:black;
+}
+.phpvar{
+    color:#1b0fa6;
+}
+code{
+    counter-reset: line;
+    padding:0
+  
+}
+line{
+    counter-increment: line;
+   margin:0;
+   padding:0;
+   
+}
+
+line:before{
+    text-align: right;
+    content: counter(line)" ";
+    display: inline-block;
+    margin-right:10px;
+    border-bottom: solid 1px	#FfFfFf;
+  width:45px;
+  background-color:#f1f1f1;
+  border-right:solid 1px black;
+  text-align: right;
+ 
+  color: black;
+  
+    -webkit-user-select: none;
+   
+}
+line:hover {
+  background-color: #e1e6e8;
+  background-size:cover;
+
+}
+.copytoboard{
+  margin-left:5%; 
+  background-color:white;
+
+
+}
+.css{
+    color:#104669;
+}
+.css1{
+    color:#8f3d28;
+}
+.copycpy{}
+kk{
+   background-color:#f1f1f1; width:100%;line-height:2.3;
+  
+}
