@@ -1,6 +1,6 @@
 
 function highlight_html(){
-  var ca = document.getElementsByClassName("code");
+  var ca = document.querySelectorAll("pre code");
   var ba =document.getElementsByClassName("copycpy");
   for( var i = 0; i < ca.length; i++){
     var data= ca[i].innerHTML;
